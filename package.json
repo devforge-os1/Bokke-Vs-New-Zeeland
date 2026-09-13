@@ -1,0 +1,24 @@
+{
+  "name": "the-card-app",
+  "version": "2.0.0",
+  "description": "Sports Analytics & Prediction Platform",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "test": "vitest",
+    "lint": "eslint src --fix"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "chart.js": "^4.4.0",
+    "socket.io-client": "^4.7.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "gh-pages": "^6.1.0",
+    "vite": "^5.0.0"
+  }
+}
